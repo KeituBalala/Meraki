@@ -23,7 +23,7 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #9d7982;
+  background-color: #943a49;
   color: white;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #580c05;
+  background-color: #943a49;
   color: white;
 }
 
