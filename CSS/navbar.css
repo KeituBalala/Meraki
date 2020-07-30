@@ -15,7 +15,7 @@ body {
 .navbar a {
   float: right;
   display: block;
-  color: #c8b7c9;
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -28,7 +28,7 @@ body {
 }
 
 .active {
-  background-color: #733236;
+  background-color: #580c05;
   color: white;
 }
 
@@ -45,7 +45,7 @@ body {
   font-size: 17px;    
   border: none;
   outline: none;
-  color: #c8b7c9;
+  color: #fff;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -74,7 +74,7 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #733236;
+  background-color: #580c05;
   color: white;
 }
 
