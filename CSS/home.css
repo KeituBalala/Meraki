@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    background-image: url("../Images/LandingPage.jpeg");
+    text-align: center;
+    color: #fee4ff;
+    padding-top: 20%;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    font-family: 'Codystar';
+    font-size: 4.25vw;
+  }
+  
+  h3 {
+    font-family: 'Codystar';
+    font-size: 2.25vw;
+  }
+
+  h4 {
+    font-family: 'Codystar';
+    font-size: 1vw;
+  }
