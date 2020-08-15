@@ -1,3 +1,7 @@
+*{
+  background-image: url("../Images/Background1.png");
+}
+
 body {
     margin-left: 10%;
   }
