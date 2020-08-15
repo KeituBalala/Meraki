@@ -1,0 +1,54 @@
+body {
+    margin-left: 10%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Courgette'
+  }
+  
+  .glow {
+    font-size: 80px;
+    color: #943a49;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ac818f, 0 0 40px #ac818f, 0 0 50px #ac818f, 0 0 60px #ac818f, 0 0 70px #ac818f;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #751132, 0 0 40px #751132, 0 0 50px 751132, 0 0 60px #751132, 0 0 70px #751132, 0 0 80px #751132;
+    }
+  }
+  
+  .button {
+    background-color: #751132;
+    border: none;
+    color: black;
+    padding: 1% 10%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10% 3%;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
+  }
+  
+  
+  .button:hover {
+    background-color: #943a49;
+  }
+  
+  .button:active {
+    background-color: #751132;
+    box-shadow: 3px 5px #fff;
+    transform: translateY(4px);
+  }
+  
