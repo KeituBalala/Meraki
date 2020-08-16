@@ -1,16 +1,15 @@
-body {
+body, html {
     margin: auto;
     font-family: "Times New Roman", Georgia, Serif;
     font-size: 18px;
+    padding-top: 3%;
+    background-color: #943a49;
     line-height: 1.5;
   }
 
-  .bgimage {
-    background-image: url("../Images/Background1.png");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  p {
+    font-weight: bold;
+    color: white;
   }
   
   .container {
