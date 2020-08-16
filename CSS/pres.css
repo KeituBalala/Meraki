@@ -1,5 +1,8 @@
-body {
+body, html {
   text-align: center;
+  height: 100%;
+  margin: 0;
+  background-color: #943a49;
 }
 
 .bgimage {
