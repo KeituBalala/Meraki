@@ -1,17 +1,17 @@
-* {
-  background-image: url("../Images/Background1.png");
-  padding-top: 20%;
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 body {
     margin: auto;
     font-family: "Times New Roman", Georgia, Serif;
     font-size: 18px;
     line-height: 1.5;
+  }
+
+  .bgimage {
+    background-image: url("../Images/Background1.png");
+    padding-top: 20%;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .container {
