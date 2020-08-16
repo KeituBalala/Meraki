@@ -1,10 +1,14 @@
-* {
-  box-sizing: border-box;
-  background-image: url("../Images/Background1.png");
-}
-
 body {
   text-align: center;
+}
+
+.bgimage {
+  background-image: url("../Images/Background1.png");
+  padding-top: 20%;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
