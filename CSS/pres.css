@@ -1,13 +1,10 @@
 body, html {
-  text-align: center;
   height: 100%;
   margin: 0;
   background-color: #943a49;
-  padding-top: 3%;
 }
 
 .bgimage {
-
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -19,6 +16,7 @@ h1 {
   font-size: 300%;
   font-family: 'Courgette';
   color: white;
+  padding-top: 5%;
 }
 
 h2 {
@@ -34,6 +32,10 @@ h3 {
   text-align: center;
 }
 
+p {
+  text-align: center;
+}
+
 .column {
   float: left;
   border-radius: 16px;
@@ -42,6 +44,7 @@ h3 {
   padding: 5% 5%;
   height: 200px;
   color: white;
+  padding-bottom: 3%;
 }
 
 .row:after {
