@@ -1,5 +1,10 @@
 * {
   background-image: url("../Images/Background1.png");
+  padding-top: 20%;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
