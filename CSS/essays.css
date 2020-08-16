@@ -1,5 +1,8 @@
-body {
+body, html {
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    background-color: #943a49;
   }
 
   .bgimage {
