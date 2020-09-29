@@ -4,20 +4,21 @@ body, html {
   }
   
   .bg {
-    background-image: url("../Images/LandingPage.jpeg");
+    background-image: url("../Images/HomePage.webp");
     text-align: center;
     color: #fff;
     padding-top: 20%;
-    height: 100%; 
+    height: 59.7%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   h1 {
-    font-family: 'Bangers';
+    font-family: 'Akronim';
+    margin-top: 0%;
     letter-spacing: 3px;
-    font-size: 6.25vw;
+    font-size: 7vw;
     margin-bottom: 2%;
   }
   
