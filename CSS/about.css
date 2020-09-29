@@ -3,13 +3,14 @@ body, html {
     font-family: "Times New Roman", Georgia, Serif;
     font-size: 18px;
     padding-top: 3%;
-    background-color: #943a49;
+    background-image: url("../Images/SiteBackground.png");
     line-height: 1.5;
   }
 
   p {
     font-weight: bold;
-    color: white;
+    color: #751132;
+    font-family: 'Courgette';
   }
   
   .container {
@@ -37,7 +38,7 @@ body, html {
   h1 {
     font-size: 200%;
     font-family: 'Courgette';
-    color: white;
+    color: #310b12;
     text-align: center;
     margin-bottom: 0;
   }
@@ -45,7 +46,7 @@ body, html {
   h2 {
     font-size: 130%;
     font-family: 'Courgette';
-    color: white;
+    color: #310b12;
     text-align: center;
   }
   
