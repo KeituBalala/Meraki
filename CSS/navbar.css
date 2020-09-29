@@ -24,12 +24,12 @@ body {
 
 .navbar a:hover {
   background-color: #ba31be;
-  color: white;
+  color: black;
 }
 
 .active {
   background-color: #832f86;
-  color: #fff;
+  color: black;
 }
 
 .navbar .icon {
