@@ -1,11 +1,11 @@
 body, html {
     height: 100%;
     margin-top: 0;
-    background-color: #943a49;
+    background-image: url("../Images/SiteBackground.png");
   }
 
   .bgimage {
-    background-image: url("../Images/Background1.png");
+    background-image: url("../Images/SiteBackground.png");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body, html {
 
   .glow {
     font-size: 80px;
-    color: #943a49;
+    color: #000;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -38,12 +38,12 @@ body, html {
     }
     
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #751132, 0 0 40px #751132, 0 0 50px 751132, 0 0 60px #751132, 0 0 70px #751132, 0 0 80px #751132;
+      text-shadow: 0 0 20px #fff, 0 0 30px #ba31be, 0 0 40px #ba31be, 0 0 50px #ba31be, 0 0 60px #ba31be, 0 0 70px #ba31be, 0 0 80px #ba31be;
     }
   }
   
   .button {
-    background-color: #751132;
+    background-color: #832f86;
     border: none;
     color: white;
     padding: 1% 10%;
@@ -59,11 +59,11 @@ body, html {
   
   
   .button:hover {
-    background-color: #943a49;
+    background-color: #ba31be;
   }
   
   .button:active {
-    background-color: #751132;
+    background-color: #832f86;
     box-shadow: 1px 2px #fff;
     transform: translateY(4px);
   }
