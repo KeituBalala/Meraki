@@ -15,7 +15,7 @@ body {
 .navbar a {
   float: right;
   display: block;
-  color: #fff;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,13 +23,13 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #943a49;
+  background-color: #ba31be;
   color: white;
 }
 
 .active {
-  background-color: #580c05;
-  color: white;
+  background-color: #832f86;
+  color: #fff;
 }
 
 .navbar .icon {
@@ -45,7 +45,7 @@ body {
   font-size: 17px;    
   border: none;
   outline: none;
-  color: #fff;
+  color: black;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -74,12 +74,12 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #943a49;
+  background-color: #ba31be;
   color: white;
 }
 
 .ddc a:hover {
-  background-color: #9d7982;
+  background-color: #cc98ce;
   color: black;
 }
 
