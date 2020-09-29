@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  background-color: #943a49;
+  background-image: url("../Images/SiteBackground.png");
 }
 
 .bgimage {
@@ -21,11 +21,10 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 100%;
-  font-weight: normal;
-  color: white;
   font-family: 'Courgette';
-}
+  color:#751132;
+  font-size: 150%
+ }
 
 h3 {
   font-size: 130%;
@@ -39,7 +38,7 @@ p {
 .column {
   float: left;
   border-radius: 16px;
-  width: 40%;
+  width: 32%;
   margin-top: 3%;
   padding: 5% 5%;
   height: 200px;
@@ -61,4 +60,23 @@ p {
 	border-bottom: 25px solid transparent;
     margin-top: 10%;
     margin-left: 45%;
+}
+
+.glow {
+  font-size: 80px;
+  color: #000;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ac818f, 0 0 40px #ac818f, 0 0 50px #ac818f, 0 0 60px #ac818f, 0 0 70px #ac818f;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ba31be, 0 0 40px #ba31be, 0 0 50px #ba31be, 0 0 60px #ba31be, 0 0 70px #ba31be, 0 0 80px #ba31be;
+  }
 }
