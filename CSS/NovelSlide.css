@@ -42,10 +42,6 @@ body {
     vertical-align: middle;
   }
   
-  .container {
-    position: relative;
-  }
-  
   .mySlides {
     display: none;
   }
