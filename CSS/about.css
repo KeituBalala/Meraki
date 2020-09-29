@@ -88,17 +88,17 @@ body, html {
   }
   
   .project {
-    width: 40%; 
-    background-color: #310b12;
+    width: 60%; 
+    background-color: #832f86;
     
   }
   .web {
-    width: 62.5%; 
-    background-color: #580c05;
+    width: 70%; 
+    background-color: #ba31be;
   }
   
   .novel {
-    width: 20%; 
-    background-color: #751132;
+    width: 40%; 
+    background-color: #c172c4;
   }
   
