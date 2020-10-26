@@ -1,35 +1,26 @@
-body, html {
-    height: 100%;
-    margin: 0;
-  }
-  
-  .bg {
-    background-image: url("../Images/ReflectiveIndexCards.webp");
-    text-align: center;
-    color: #fff;
-    padding-top: 20%;
-    width: 100%;
-    height: 150%; 
+body {
+    background-image: url("https://media4.giphy.com/media/2tOUQgIShjXIHksATn/giphy.webp?cid=ecf05e47gz4wt21bbv4cqbib93iriyirl5ttqnvvlmv7brn0&rid=giphy.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 50%;
+    margin: 0;
   }
   
   h1 {
-    font-family: 'Akronim';
-    margin-top: 20%;
+    font-family: 'Julee';
     letter-spacing: 3px;
-    font-size: 11vw;
-    margin-bottom: 2%;
-  }
-  
-  h3 {
-    font-family: 'Courgette';
-    font-size: 2vw;
+    font-size: 20vw;
+    margin-top: 11.5%;
     margin-bottom: 0;
+    text-align: center;
   }
 
-  h4 {
-    font-family: 'Courgette';
-    font-size: 1vw;
+  p {
+    font-family: 'Lovers Quarrel';
+    margin: 0;
+    letter-spacing: 3px;
+    font-size: 2vw;
+    text-align: center;
   }
+
