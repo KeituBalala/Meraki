@@ -1,16 +1,32 @@
+@font-face{
+  font-family: khand;
+  src:url(../Fonts/Khand-Regular.ttf)
+}
+
+@font-face{
+  font-family: kalam;
+  src:url(../Fonts/Kalam-Regular.ttf)
+}
+
+
+:root{
+  --main-font: khand;
+  --first-font: kalam;
+}
+
 body, html {
     margin: auto;
-    font-family: "Times New Roman", Georgia, Serif;
     font-size: 18px;
     padding-top: 3%;
-    background-image: url("../Images/SiteBackground.png");
+    background-color: #eae9eb;
     line-height: 1.5;
   }
 
   p {
-    font-weight: bold;
     color: #751132;
-    font-family: 'Courgette';
+    font-family:  var(--main-font);
+    font-size: 110%;
+    text-align: center;
   }
   
   .container {
@@ -36,8 +52,8 @@ body, html {
   }
   
   h1 {
-    font-size: 200%;
-    font-family: 'Courgette';
+    font-size: 500%;
+    font-family: 'Julee';
     color: #310b12;
     text-align: center;
     margin-bottom: 0;
@@ -45,7 +61,7 @@ body, html {
   
   h2 {
     font-size: 130%;
-    font-family: 'Courgette';
+    font-family: 'Julee';
     color: #310b12;
     text-align: center;
   }
