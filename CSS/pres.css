@@ -1,82 +1,46 @@
-body, html {
-  height: 100%;
-  margin: 0;
-  background-image: url("../Images/SiteBackground.png");
+* {
+  box-sizing: border-box;
 }
 
-.bgimage {
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 100px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 25%;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
 }
 
 h1 {
-  text-align: center;
-  font-size: 300%;
-  font-family: 'Courgette';
-  color: white;
-  padding-top: 5%;
-}
-
-h2 {
-  text-align: center;
-  font-family: 'Courgette';
-  color:#751132;
-  font-size: 150%
- }
-
-h3 {
-  font-size: 130%;
-  text-align: center;
-}
-
-p {
-  text-align: center;
-}
-
-.column {
-  float: left;
-  border-radius: 16px;
-  width: 32%;
-  margin-top: 3%;
-  padding: 5% 5%;
-  height: 200px;
-  color: white;
-  padding-bottom: 3%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.play {
-	width: 0;
-	height: 0;
-	border-top: 25px solid transparent;
-	border-left: 50px solid #000;
-	border-bottom: 25px solid transparent;
-    margin-top: 10%;
-    margin-left: 45%;
-}
-
-.glow {
-  font-size: 80px;
-  color: #000;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ac818f, 0 0 40px #ac818f, 0 0 50px #ac818f, 0 0 60px #ac818f, 0 0 70px #ac818f;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ba31be, 0 0 40px #ba31be, 0 0 50px #ba31be, 0 0 60px #ba31be, 0 0 70px #ba31be, 0 0 80px #ba31be;
-  }
+  font-family:'Julee';
 }
