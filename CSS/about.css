@@ -104,17 +104,17 @@ body, html {
   }
   
   .project {
-    width: 60%; 
+    width: 97%; 
     background-color: #832f86;
     
   }
   .web {
-    width: 70%; 
+    width: 100%; 
     background-color: #ba31be;
   }
   
   .novel {
-    width: 40%; 
+    width: 95%; 
     background-color: #c172c4;
   }
   
