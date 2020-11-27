@@ -1,26 +1,33 @@
+body {
+  background-color:#eae9eb;
+}
+
 .parallax {
-  min-height: 400px; 
+  height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   background-size: contain;
+  background-size: cover;
 }
 
 h1 {
   padding-top: 3%;
   text-align: center;
-  font-family:'Julee';
+  font-family: 'Julee';
   font-size: 500%;
 }
 
 .text {
-  height:65px;
+  height: 70px;
   background-color:#eae9eb;
   font-size:150%; 
   text-align:center;
   padding-top: 1%;
-  color:#751132;
-  font-family:'Marck Script';
+  color: black;
+  font-weight: bold;
+  font-family: 'Julee';
 }
 
 .pagination {
@@ -47,4 +54,10 @@ h1 {
 .pagination a:hover:not(.active) {
   background-color: #832f86;
   border-radius: 5px;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
 }
